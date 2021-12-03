@@ -12,9 +12,6 @@ import { OWNER, REPO, WEB_URL } from '../../api/constants';
 
 const navigationValues = [
   {
-    name: 'Code', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}`,
-  },
-  {
     name: 'Issues', value: 253, selected: true, url: `${window.location.origin}`,
   },
   {
@@ -23,9 +20,7 @@ const navigationValues = [
   {
     name: 'Projects', value: 2, selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/projects`,
   },
-  {
-    name: 'Insights', selected: false, url: `${WEB_URL}/${OWNER}/${REPO}/insights`,
-  },
+ 
 ];
 
 
